@@ -1,0 +1,465 @@
+<resources>
+    <string name="app_name">Arabian Oud</string>
+    <string name="main_activity_title">Arabian Oud</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_category">category</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_my_cart">MyCart</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="title_activity_birthdate">Birthdate</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_stored_address">Shipping Address</string>
+    <string name="title_activity_add_address">Add Address</string>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="title_activity_paypal">Paypal Payment</string>
+    <string name="title_activity_payment_confirmation">Payment Confirmation</string>
+    <string name="title_activity_order_details">Order Details</string>
+    <string name="title_activity_credit_card">Credit Card Payment</string>
+    <string name="title_activity_contactus">Contact Us</string>
+    <string name="title_activity_store_locator">Stores Location</string>
+    <string name="title_activity_select_region">Select Region</string>
+    <string name="payment_confirmation_home">Home</string>
+    <string name="myAccount">My Account</string>
+    <string name="SearchKey">Search</string>
+    <string name="searching">Searching...</string>
+    <string name="chooseadd">Select the address you want to deliver the shipment</string>
+    <string name="storeLocator_branches">Branches</string>
+    <string name="paypal_buy">Purchase</string>
+    <string name="search_textView">Searching For</string>
+
+    <string name="please_wait">Please wait ...</string>
+
+    <!--    main activity      -->
+    <string name="main_activity_search_key">Enter Search Key</string>
+    <string name="main_activity_popular">Popular categories</string>
+    <string name="main_activity_explore">EXPLORE</string>
+    <string name="main_activity_offers">Offers</string>
+    <string name="main_activity_execlusive">Exclusive</string>
+    <string name="main_activity_women">Women</string>
+    <string name="main_activity_best_sellers">Best Sellers</string>
+    <string name="newArrival">New Arrival</string>
+    <string name="main_activity_men">Men</string>
+    <string name="main_activity_special_occassions">Special Occassions</string>
+    <string name="main_activity_off">OFF</string>
+    <string name="main_activity_currency">SAR</string>
+    <string name="main_activity_exit">Exit Arabian Oud?</string>
+
+    <string name="main_activity_freeshipping">Free shipping</string>
+    <string name="main_activity_workingtime">Working time\n08:00 to 22:00</string>
+    <string name="main_activity_days">30 days money \n back guarantee</string>
+    <string name="main_activity_contactus">Contact \n Us</string>
+
+    <!--search-->
+    <string name="search_noProduct">No Products Found</string>
+
+    <!--    side menu   -->
+    <string name="title_section1">Oud &amp; Incense</string>
+    <string name="title_section2">Perfumes</string>
+    <string name="title_section3">Oil Perfumes</string>
+    <string name="title_section4">Exclusives</string>
+    <string name="title_section5">Spray Perfumes</string>
+    <string name="title_section6">Today\'s Deals</string>
+
+    <string-array name="side_menu">
+        <item>OUD &amp; INCENSE</item>
+        <item>PERFUMES</item>
+        <item>OIL PERFUMES</item>
+        <item>EXCLUSIVES</item>
+        <item>SPRAY PERFUMES</item>
+        <item>TODAY\'S DEALS</item>
+    </string-array>
+
+    <string-array name="side_menu_sub1">
+        <item>Perfumes</item>
+        <item>Men\'s Collection</item>
+        <item>Women\'s Collection</item>
+        <item>Unisex Collection</item>
+        <item>Oriental Perfumes</item>
+        <item>Western Perfumes</item>
+        <item>Oriental+Western</item>
+    </string-array>
+
+    <string-array name="side_menu_sub2">
+        <item>Oud &amp; Incense</item>
+        <item>Arabian Oud</item>
+        <item>Arabian Ma\'joon</item>
+        <item>Arabian Mabthoth</item>
+    </string-array>
+
+    <string-array name="side_menu_sub3">
+        <item>Oil Perfumes</item>
+        <item>Dehn Oud</item>
+        <item>Arabian Blends</item>
+        <item>Aromatic Oils</item>
+    </string-array>
+
+    <string name="side_menu_changeLanguage">Arabic Language</string>
+    <string name="side_menu_account">Account</string>
+    <string name="side_menu_stores">Stores</string>
+    <string name="side_menu_contact">Contact</string>
+
+
+    <!--   category  -->
+    <string name="category_buy_now">BUY NOW</string>
+
+
+    <!--   details  -->
+    <string name="details_buy_now">BUY NOW</string>
+    <string name="details_cart">CART</string>
+    <string name="details_wishlist">WISH LIST</string>
+    <string name="details_standart_delivery">Standart delivery</string>
+    <string name="details_cash_on_delivery">Cash on delivery</string>
+    <string name="details_description">Description</string>
+    <string name="details_features">Features</string>
+    <string name="details_code">SKU</string>
+    <string name="details_size">Size</string>
+    <string name="details_type">Type</string>
+    <string name="details_origins">Origins</string>
+    <string name="details_fragrance">Fragrance</string>
+
+
+    <!--   cart  -->
+    <string name="cart_grand_total">Grand total</string>
+    <string name="cart_checkout">CHECKOUT</string>
+
+
+    <!--   log in   -->
+    <string name="login_signin">Sign in</string>
+    <string name="login_username">Email</string>
+    <string name="login_password">password</string>
+    <string name="login_login">LOG IN</string>
+    <string name="login_create_account">Create new account</string>
+    <string name="login_not_memeber">Not a member</string>
+    <string name="login_forget_password">Forget password ?</string>
+    <string name="login_have_account">Have an account</string>
+    <string name="login_invalid_email">Invalid Email or Password</string>
+
+
+    <!--  sign up   -->
+    <string name="signup_firstname">Fist name</string>
+    <string name="signup_secondname">Second name</string>
+    <string name="signup_email">E-mail</string>
+    <string name="signup_password">password</string>
+    <string name="signup_register">REGISTER</string>
+
+
+    <!--  stored addresses   -->
+    <string name="stored_addresses_add_address"> ADD ADDRESS </string>
+
+
+    <!-- add address -->
+    <string name="add_address_personal_info">Personal info</string>
+    <string name="add_address_firstname">First name</string>
+    <string name="add_address_second_name">Second name</string>
+    <string name="add_address_company">Company</string>
+    <string name="add_address_telephone">Telephone</string>
+    <string name="add_address_fax">Fax</string>
+    <string name="add_address_address_info">Address info</string>
+    <string name="add_address_street_name">Street name</string>
+    <string name="add_address_street_number">Street number</string>
+    <string name="add_address_address_extras">Address extras</string>
+    <string name="add_address_country">Country</string>
+    <string name="add_address_city">City</string>
+    <string name="add_address_zip">ZIP</string>
+    <string name="add_address_add_address">ADD ADDRESS</string>
+
+
+    <!--    checkout   -->
+    <string name="checkout_item_details">ITEM DETAILS</string>
+    <string name="checkout_shipment">Shipment</string>
+    <string name="checkout_standard_delivery">Standard delivery</string>
+    <string name="checkout_shipment_details">SHIPMENT DETAILS</string>
+    <string name="checkout_sub_total">Sub total</string>
+    <string name="checkout_shipping">Shipping</string>
+    <string name="checkout_grand_total">Grand total</string>
+    <string name="checkout_make_payment">MAKE PAYMENT</string>
+    <string name="taxes">Free Shipping</string>
+    <string name="paymentMethod">PAYMENT METHOD</string>
+    <string name="cashOnDelivery">Cash On Delivery</string>
+    <string name="shippingMethod">Shipping Method</string>
+    <string name="choosePaymentMethod">Choose Payment Method</string>
+
+    <!-- contact us -->
+    <string name="contactus_message">For any questions, suggestions, or comments please contact our customer service team as we are here to Help You</string>
+    <string name="contactus_name">Name</string>
+    <string name="contactus_telephone">Telephone</string>
+    <string name="contactus_email">Subject</string>
+    <string name="contactus_comment">Comment</string>
+    <string name="contactus_submit">SUBMIT</string>
+
+
+    <!-- Store Locator -->
+    <string name="storeLocator_alertTitle">Location not enabled</string>
+    <string name="storeLocator_alertMessage">Please enable your location and Google\'s location service from settings</string>
+
+    <string name="no_products_message">Some Products Out Of Stock, Try Later</string>
+    <string name="no_products_title">Product Out Of Stock</string>
+
+
+    <!--   select region -->
+    <string name="select_region_country">Select Country</string>
+    <string name="select_region_language">Select Language</string>
+    <string name="select_region_toast">Choose Another Language</string>
+    <string name="select_region_save">SAVE</string>
+
+
+    <string-array name="countries">
+        <item>Saudia arabia</item>
+        <item>International</item>
+    </string-array>
+
+    <string name="countryName">Saudi Arabia</string>
+
+    <string-array name="language">
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+
+
+    <!--   profile -->
+    <string name="profile_address">Address : </string>
+    <string name="profile_email">E-mail : </string>
+    <string name="profile_telephone">Telephone : </string>
+    <string name="profile_track_order">Track orders</string>
+    <string name="profile_stored_address">Shipping addresses</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_setting">Setting</string>
+    <string name="profile_logout_dialog">Are you sure you want to log out?</string>
+
+
+    <!--  empty cart -->
+    <string name="emptyCart_title1">Cart is empty</string>
+    <string name="emptyCart_title2">Thank you for visiting Arabian Oud.</string>
+    <string name="emptyCart_title3">Continue shopping</string>
+
+
+    <!--  empty wishlist -->
+    <string name="emptyWishlist_title1">Wishlist is empty</string>
+    <string name="emptyWishlist_title2">Thank you for visiting Arabian Oud.</string>
+    <string name="emptyWishlist_title3">Continue shopping</string>
+
+
+    <!--  payment confirmation -->
+    <string name="payment_title1">Thank you for your order</string>
+    <string name="payment_title2">Order number</string>
+    <string name="payment_title3">view order details</string>
+
+
+    <!--  no internet connection -->
+    <string name="no_internet_connection_title">No internet connction</string>
+    <string name="no_internet_connection_retry">Retry</string>
+    <string name="no_internet_connection_cancel">Cancel</string>
+
+
+    <!-- Forget Password -->
+    <string name="forgetPassword_title">Forget Password</string>
+    <string name="forgetPassword_Email">Enter Your Email</string>
+    <string name="forgetPassword_sendPassword">Send Password To Email</string>
+    <string name="forgetPassword_dialog">Email sent to you with link to get your password</string>
+    <string name="forgetPassword_ok">Ok</string>
+    <string name="forgetPassword_cancel">Cancel</string>
+
+
+    <!-- Shipping And Return -->
+    <string name="shippingAndReturn_title">Shipping and Return</string>
+    <string name="shippingAndReturn_Delivery_title">Delivery</string>
+    <string name="shippingAndReturn_Delivery_details">
+•	Shipping and taxes will be calculated based on the country and method of delivery and indicated at the time of checkout.</string>
+    <string name="shippingAndReturn_Delivery_details1">•	Pay Cash on Delivery service is only available inside Saudi Arabia.</string>
+    <string name="shippingAndReturn_Delivery_details2">•All purchases will be shipped and delivered through the known shipping companies within 2 to 8 business days for Saudi Arabia, and may take longer to shipping outside Saudi Arabia which varies from country to another. You can track your shipment through the shipping company’s website.</string>
+
+    <string name="shippingAndReturn_ReturnandExchange_title">Return &amp; Exchange</string>
+    <string name="shippingAndReturn_ReturnandExchange_details">Our customer friendly return policy allows for a privilege of returning eligible items within 3 days from delivery date so long as the item(s), along with the Original Packaging is in the original state and condition when purchased and received. Please inform us through one of our contact channels first, in order to allow for a smooth return process. Refunds will be made as per the mode of payment you selected during your purchase.
+
+Returns are hassle-free, with no extra charge at Arabian Oud. If you are unsatisfied for any reason with your purchase, please contact Arabian Oud customer service at info@arabianoud.com.sa or call us at +966 8001242030 from Saudi Arabia, or at +966 114742222 from anywhere else within 3 days of receiving your order to initiate the return or exchange process.
+
+Conveniently, we will arrange the return for you. You could contact our Customer Services Team to arrange a courier pick-up for your item and a quick Return. To ensure you are within the Policy time frame for returning your purchase, please make sure that you contact us as soon as you have decided on returning an item.</string>
+
+
+    <!-- Bank Transfer -->
+    <string name="bankTransfer_Title">Bank Transfer Payment</string>
+    <string name="bankTransfer_intro">You can make a bank transfer to our own accounts data :</string>
+    <string name="bankTransfer_SABB_Title">SABB Bank</string>
+    <string name="bankTransfer_SABB_client">If you a current SABB Client : 001292721001</string>
+    <string name="bankTransfer_SABB_not_client">If you are a Client for any other Bank, Kindly use this IBAN : SA3245000000001292721001</string>
+    <string name="bankTransfer_Rajhi_title">Al-Rajhi Bank</string>
+    <string name="bankTransfer_Rajhi_client">If you a current Al-Rajhi Client : 126608010073020</string>
+    <string name="bankTransfer_Rajhi_not_client">If you are a Client for any other Bank, Kindly use this IBAN : SA2680000126608010073020</string>
+
+    <!-- Payment Method -->
+
+    <string name="paymentMethodHint">Choose Payment Method</string>
+    <array name="methods">
+        <item>Cash On Delivery</item>
+        <item>Bank Transfer</item>
+        <item>PayPal</item>
+        <item>Credit Card</item>
+    </array>
+
+
+    <string-array name="gate2play_methods">
+        <item>Payment Method</item>
+        <item>Visa Card</item>
+        <item>Master Card</item>
+    </string-array>
+
+    <string name="expiry_date">Expiry Date</string>
+    <string name="expiry_month">Expiry Month</string>
+    <string name="expiry_year">Expiry Year</string>
+
+
+    <string name="gateError">Choose Payment Method</string>
+
+    <!-- Whatsapp Message -->
+    <string name="whatsapp_enterMessage">Write Your Message</string>
+    <string name="whatsapp_openContacts">Open Contacts</string>
+    <string name="whatsapp_toast">Select ArabianOud Contact to Send Message</string>
+
+
+    <!--order Details -->
+    <string name="orderNo">Order No.  :  </string>
+    <string name="orderDate">Order Date  : </string>
+    <string name="orderShipping">Shipping    : </string>
+    <string name="ordertotal">Total       : </string>
+    <string name="orderfree">Free</string>
+
+    <!-- toast -->
+    <string name="itemAddedToWishList">Item Added to wishlist</string>
+    <string name="itemaddedTocart">item added to cart</string>
+    <string name="noOrderFound">No Orders Found</string>
+    <string name="NoAddressesFound">No Addresses Found</string>
+    <string name="NetworkError">Network Error, Please Try Again..</string>
+    <string name="EnterSearchKey">Enter Search Key...</string>
+
+    <!-- Dialogs -->
+    <string name="cartDelete">Delete this item?</string>
+    <string name="DeleteTitle">Confirm</string>
+    <string name="loading">Loading...</string>
+    <string name="changeLanguageTitle">Change Language</string>
+    <string name="changeLanguageAndRestart">Change Language and Restart Application</string>
+    <string name="changeLanguage">This will restart the application</string>
+    <string name="DeleteYes">Yes</string>
+    <string name="DeleteNo">No</string>
+
+    <!-- Cities -->
+    <array name="cities">
+        <item>Riyadh</item>
+        <item>Tabuk</item>
+        <item>Mecca</item>
+        <item>Medina</item>
+        <item>Jeddah</item>
+        <item>Al-Ahsa</item>
+        <item>Taeif</item>
+        <item>Dammam</item>
+        <item>Khamis</item>
+        <item>Khamis Mushait</item>
+        <item>Buraidah</item>
+        <item>Khobar</item>
+        <item>Haeil</item>
+        <item>Hafar Al-Batin</item>
+        <item>Jubail</item>
+        <item>Al-Kharj</item>
+        <item>Qatif</item>
+        <item>Abha</item>
+        <item>Najran</item>
+        <item>Yanbu</item>
+        <item>Qurayyat</item>
+        <item>Ar Rass</item>
+        <item>Unaizah</item>
+        <item>Al Majmaah</item>
+        <item>Sharurah</item>
+        <item>Jizan Region</item>
+        <item>Samtah</item>
+        <item>Al-Qassim Region</item>
+        <item>Al Bahah</item>
+        <item>Arar</item>
+        <item>Al-Quwayiyah</item>
+        <item>>Al Qunfudhah</item>
+    </array>
+
+    <!--Gate2Play-->
+    <string name="error">Choose Card Type</string>
+    <string name="gate2play_name">Name</string>
+    <string name="gate2play_ccn">Credit Card Number</string>
+    <string name="gate2play_expirydate">Expires MM/YYYY</string>
+    <string name="gate2play_cvv">CVV</string>
+
+    <string name="alert">Alert</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="alert_input_email">Please enter email</string>
+    <string name="alert_input_password">Please enter password</string>
+    <string name="alert_input_first_name">Please enter first name</string>
+    <string name="alert_input_last_name">Please enter second name</string>
+    <string name="alert_input_email_correct">Please enter email correctly</string>
+    <string name="alert_input_password_length">Please enter password at least 6 characters</string>
+    <string name="alert_user_registered">The user is already registered. Please enter another email</string>
+    <string name="alert_register_failed">Register is failed. Please try again!</string>
+    <string name="alert_reset_password_failed">Reset password is failed. Please try again!</string>
+
+    <string name="alert_input_name">Please enter name</string>
+    <string name="alert_input_phone">Please enter telephone number</string>
+    <string name="alert_input_subject">Please enter subject</string>
+    <string name="alert_input_comment">Please enter comment</string>
+
+    <string name="alert_input_street_name">Please enter street name</string>
+    <string name="alert_input_street_number">Please enter street number</string>
+    <string name="alert_input_address_extra">Please enter address extra</string>
+    <string name="alert_input_city">Please enter city</string>
+
+    <string name="alert_network_connection_failed">Network connection is failed. Please check your state and try again!</string>
+    <string name="press_again_exit_app">Please press once to exit the program</string>
+
+    <string name="storeLocator_country">-Country-</string>
+    <string name="storeLocator_city">-City-</string>
+    <string name="storeLocator_branch">-Branch-</string>
+
+    <string name="country_sa">Saudi Arabia</string>
+    <string name="country_bh">Bahrain</string>
+    <string name="country_om">Oman</string>
+    <string name="country_qa">Qatar</string>
+    <string name="country_ae">United Arab Emirates</string>
+    <string name="country_fr">France</string>
+    <string name="country_eg">Egypt</string>
+    <string name="country_jo">Jordan</string>
+    <string name="country_iq">Iraq</string>
+    <string name="country_my">Malaysia</string>
+    <string name="country_gb">United Kingdom</string>
+    <string name="country_kw">Kuwait</string>
+    <string name="country_pl">Poland</string>
+
+    <string name="txt_order_number">Order No :</string>
+    <string name="txt_order_date">Order Date :</string>
+    <string name="txt_payment_method">Payment Method :</string>
+    <string name="txt_items_ordered">ITEMS ORDERED</string>
+
+    <string name="payment_cash">Cash On Delivery</string>
+    <string name="payment_bank">Bank Transfer</string>
+    <string name="payment_paypal">PayPal</string>
+    <string name="payment_card">Credit Card</string>
+    <string name="payment_card_visa">Visa Card</string>
+    <string name="payment_card_master">Master Card</string>
+
+    <string name="discount_coupon_codes">DISCOUNT COUPON CODES</string>
+    <string name="button_apply">APPLY</string>
+    <string name="enter_coupon_code">Enter your coupon code</string>
+    <string name="alert_input_coupon_code">Please enter coupon code</string>
+    <string name="alert_invalid_coupon_code">Coupon code is not valid</string>
+    <string name="alert_success_coupon_code">Coupon code was applied</string>
+    <string name="alert_cancel_coupon_code">Coupon code was cancelled</string>
+    <string name="str_discount">Discount</string>
+
+    <string name="alert_invalid_card_number">Invalid credit card information. Please enter card information again.</string>
+    <string name="alert_transaction_failed">Transaction is failed. Please try again.</string>
+
+    <string name="alert_ordering_failed">Ordering is failed. Please try again</string>
+
+</resources>

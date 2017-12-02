@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">العربية للعود</string>
+    <string name="main_activity_title">العربية للعود</string>
+
+    <string name="navigation_drawer_open">فتح درج الملاحة</string>
+    <string name="navigation_drawer_close">انهيار درج الملاحة</string>
+
+    <string name="action_settings">اعدادات</string>
+    <string name="title_activity_category">تصنيفات</string>
+    <string name="title_activity_details">التفاصيل</string>
+    <string name="title_activity_search">بحث</string>
+    <string name="title_activity_my_cart">السلة</string>
+    <string name="title_activity_cart">السلة</string>
+    <string name="title_activity_wish_list">امنياتى</string>
+    <string name="title_activity_signup">انشاء حساب</string>
+    <string name="title_activity_birthdate">تاريخ الميلاد</string>
+    <string name="title_activity_profile">الحساب</string>
+    <string name="title_activity_stored_address">العناوين المسجلة</string>
+    <string name="title_activity_add_address">اضافة عنوان</string>
+    <string name="title_activity_checkout">شراء </string>
+    <string name="title_activity_payment_confirmation">تاكيد الدفع</string>
+    <string name="title_activity_order_details">تفاصيل الطلب</string>
+    <string name="title_activity_credit_card">الدفع ببطاقات الائتمان</string>
+    <string name="title_activity_paypal">الدفع باي بال</string>
+    <string name="title_activity_contactus">اتصل بنا</string>
+    <string name="title_activity_store_locator">مخازن الموقع</string>
+    <string name="title_activity_select_region">اختيار المنطقة</string>
+    <string name="payment_confirmation_home">القائمة الرئيسية</string>
+    <string name="myAccount">حســابى</string>
+    <string name="SearchKey">ابحث</string>
+    <string name="chooseadd">اختر العنوان المراد التوصيل اليه</string>
+    <string name="storeLocator_branches">الفروع</string>
+    <string name="paypal_buy">ادفع</string>
+    <string name="search_textView">جارى البحث عن</string>
+
+    <string name="please_wait">أرجو الإنتظار ...</string>
+
+    <!--    main activity      -->
+    <string name="main_activity_search_key">بــحــث</string>
+    <string name="main_activity_popular">التصنيفات المشهورة</string>
+    <string name="main_activity_explore">استعرض</string>
+    <string name="main_activity_offers">عـــروض</string>
+    <string name="main_activity_execlusive">حـــصرى</string>
+    <string name="main_activity_women">نسائى</string>
+    <string name="main_activity_best_sellers">الاكثر مبيعا</string>
+    <string name="newArrival">المضاف حديثاً</string>
+
+    <string name="main_activity_men">رجــالى</string>
+    <string name="main_activity_special_occassions">خصـــومات خــاصة</string>
+    <string name="main_activity_off">خصم</string>
+    <string name="main_activity_currency">ر.س</string>
+    <string name="searching">جارى البحث...</string>
+    <string name="main_activity_exit">الخروج من العربية للعود؟</string>
+
+    <string name="main_activity_freeshipping">شحن مجانى</string>
+    <string name="main_activity_workingtime">مواعيد العمل\n08:00 ل 22:00</string>
+    <string name="main_activity_days">30 يوم لضمان \n استعادة المال</string>
+    <string name="main_activity_contactus">اتصل بنا</string>
+
+
+
+    <!--search-->
+    <string name="search_noProduct">لا يوجد منتجات</string>
+
+
+    <!--   side menu  -->
+    <string name="title_section1">عود و بخور</string>
+    <string name="title_section2">عطور</string>
+    <string name="title_section3">زيوت عطرية</string>
+    <string name="title_section4">منتجات حصرية</string>
+    <string name="title_section5">عطور بخاخ</string>
+    <string name="title_section6">عروض اليوم</string>
+
+
+    <string-array name="side_menu">
+        <item>عود و بخور</item>
+        <item>عطور</item>
+        <item>زيوت عطرية</item>
+        <item>منتجات حصرية</item>
+        <item>عطور بخاخ</item>
+        <item>عروض اليوم</item>
+    </string-array>
+
+    <string-array name="side_menu_sub1">
+        <item>عطور</item>
+        <item>عطور للرجال</item>
+        <item>عطور للنساء</item>
+        <item>عطور للجنسين</item>
+        <item>تشكيلة العطور الشرقية</item>
+        <item>تشكيلة العطور الغربية</item>
+        <item>عطور مزيج شرقي وغربي</item>
+    </string-array>
+
+    <string-array name="side_menu_sub2">
+        <item>عود و بخور</item>
+        <item>العود</item>
+        <item>أنواع المعجون</item>
+        <item>المبثوث الفاخر</item>
+    </string-array>
+
+    <string-array name="side_menu_sub3">
+        <item>زيوت عطرية</item>
+        <item>دهن العود</item>
+        <item>مخلطات العربية</item>
+        <item>زيوت عطرية</item>
+    </string-array>
+
+    <string name="side_menu_changeLanguage">اللغة الانجليزية</string>
+    <string name="side_menu_account">الحساب</string>
+    <string name="side_menu_stores">الفروع</string>
+    <string name="side_menu_contact">اتصل بنا</string>
+
+
+
+    <!--   category  -->
+    <string name="category_buy_now">اشترى الان</string>
+
+
+    <!--   details  -->
+    <string name="details_buy_now">أشترى الآن</string>
+    <string name="details_cart">الــسلة</string>
+    <string name="details_wishlist">الامنيات</string>
+    <string name="details_standart_delivery">الشحن السريع</string>
+    <string name="details_cash_on_delivery">الدفع عند الاستلام</string>
+    <string name="details_description">الــوصف</string>
+    <string name="details_features">المميــزات</string>
+    <string name="details_code">الرقم المسلسل</string>
+    <string name="details_size">الحجم</string>
+    <string name="details_type">النوع</string>
+    <string name="details_origins">الأصول</string>
+    <string name="details_fragrance">العطر</string>
+
+
+    <!-- Forget Password -->
+
+    <string name="forgetPassword_title">نسيت كلمة المرور</string>
+    <string name="forgetPassword_Email">ادخل البريد الألكترونى الخاص بك</string>
+    <string name="forgetPassword_sendPassword">ارسل الرقم السرى للبريد الألكترونى الخاص بك</string>
+    <string name="forgetPassword_dialog">تم ارسال ايميل للبريد الألكترونى الخاص بك</string>
+    <string name="forgetPassword_ok">موافق</string>
+    <string name="forgetPassword_cancel">الغاء</string>
+
+
+    <!--   cart  -->
+    <string name="cart_grand_total">المجموع الاجمالى</string>
+    <string name="cart_checkout">انهاء الشراء</string>
+    <string name="DeleteYes">نعم</string>
+    <string name="DeleteNo">لا</string>
+
+
+
+    <!--   log in   -->
+    <string name="login_signin">الدخول للحساب</string>
+   <string name="login_username">البريد الالكترونى</string>
+    <string name="login_password">كلمة المرور</string>
+    <string name="login_login">دخــول</string>
+    <string name="login_create_account">انشاء حساب جديد</string>
+    <string name="login_not_memeber">عضو جديد</string>
+    <string name="login_forget_password">نسيت كلمة المرور ؟</string>
+    <string name="login_have_account">امتلك حساب</string>
+    <string name="login_invalid_email">خطأ فى البريد الألكترونى او الرقم السرى</string>
+
+
+    <!--  sign up   -->
+    <string name="signup_firstname">الاسم الاول</string>
+    <string name="signup_secondname">الاسم الثانى</string>
+    <string name="signup_email">البريد الالكتروني</string>
+    <string name="signup_password">كلمة المرور</string>
+    <string name="signup_register">تسجيــل</string>
+
+
+
+    <!--  stored addresses   -->
+    <string name="stored_addresses_add_address"> اضافة عنوان جديد </string>
+
+
+
+    <!-- add address -->
+    <string name="add_address_personal_info">بيانات شخصية</string>
+    <string name="add_address_firstname">الاسم الاول</string>
+    <string name="add_address_second_name">الاسم الثانى</string>
+    <string name="add_address_company">الشركة</string>
+    <string name="add_address_telephone">الجوال</string>
+    <string name="add_address_fax">الفاكس</string>
+    <string name="add_address_address_info">بيانات العنوان</string>
+    <string name="add_address_street_name">اسم الشارع</string>
+    <string name="add_address_street_number">رقم الشارع</string>
+    <string name="add_address_address_extras">تفاصيل العنوان</string>
+    <string name="add_address_country">االدولة</string>
+    <string name="add_address_city">المدينة</string>
+    <string name="add_address_zip">رقم البريد</string>
+    <string name="add_address_add_address">اضافة عنوان</string>
+
+
+
+    <!--    checkout   -->
+    <string name="checkout_item_details">تفاصيل الشراء</string>
+    <string name="checkout_shipment">شحنة رقم</string>
+    <string name="checkout_standard_delivery">الشحن</string>
+    <string name="checkout_shipment_details">تفاصيل الشحن</string>
+    <string name="checkout_sub_total">اجمالى المبلغ</string>
+    <string name="checkout_shipping">رسوم الشحن</string>
+    <string name="checkout_grand_total">اجمالى المبلغ</string>
+    <string name="checkout_make_payment">الـــدفـع</string>
+    <string name="taxes">شحن مجانى</string>
+    <string name="paymentMethod">طريقة الدفع</string>
+    <string name="cashOnDelivery">الدفع عند الاستلام</string>
+    <string name="shippingMethod">طريقة الدفع</string>
+    <string name="choosePaymentMethod">اختر طريقة دفع</string>
+
+
+
+
+    <!-- contact us -->
+    <string name="contactus_message">لاى اسئلة او اقتراحات او تعليقات من فضلك قم بالتواصل مع فريق خدمة العملاء</string>
+    <string name="contactus_name">الاســم</string>
+    <string name="contactus_telephone">التليفون</string>
+    <string name="contactus_email">العنوان</string>
+    <string name="contactus_comment">التعليق</string>
+    <string name="contactus_submit">ارســـال</string>
+
+
+    <!--   select region -->
+    <string name="select_region_country">اختر الدولة</string>
+    <string name="select_region_language">اختر اللغة</string>
+    <string name="select_region_toast">اختر لغة اخرى</string>
+    <string name="select_region_save">حفظ</string>
+
+    <string-array
+        name="countries">
+        <item>المملكة العربية السعودية</item>
+        <item>اخرى</item>
+    </string-array>
+    <string name="countryName">المملكة العربية السعودية</string>
+
+
+    <string-array
+        name="language">
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+
+
+    <!--   profile -->
+    <string name="profile_address">العنوان : </string>
+    <string name="profile_email">البريد الالكتروني : </string>
+    <string name="profile_telephone">الجوال : </string>
+    <string name="profile_track_order">متابعة الطلبات</string>
+    <string name="profile_stored_address">العناوين المسجلة</string>
+    <string name="profile_logout">خروج</string>
+    <string name="profile_setting">اعدادات</string>
+    <string name="profile_logout_dialog">هل تريد تسجيل الخروج؟</string>
+
+
+
+
+
+    <!--  empty cart -->
+    <string name="emptyCart_title1">عربة التسوق فارغة</string>
+    <string name="emptyCart_title2">شكرا لزيارتك العربية للعود</string>
+    <string name="emptyCart_title3">استمرار التسوق</string>
+
+
+    <!--  empty Wishlist -->
+    <string name="emptyWishlist_title1">قائمة الامنيات فارغة</string>
+    <string name="emptyWishlist_title2">شكرا لزيارتك العربية للعود</string>
+    <string name="emptyWishlist_title3">استمرار التسوق</string>
+
+
+
+    <!--  payment confirmation -->
+    <string name="payment_title1">شكرا على طلبك</string>
+    <string name="payment_title2">رقم الطلب</string>
+    <string name="payment_title3">تفاصيل الطلب</string>
+
+
+    <!--  no internet connection -->
+    <string name="no_internet_connection_title">لايوجد اتصال بالانترنت</string>
+    <string name="no_internet_connection_retry">اعادة المحاولة</string>
+    <string name="no_internet_connection_cancel">الغاء الامر</string>
+
+
+    <!-- Shipping And Return -->
+    <string name="shippingAndReturn_title">الشحن و الاسترجاع</string>
+    <string name="shippingAndReturn_Delivery_title">التوصيل</string>
+    <string name="shippingAndReturn_Delivery_details">
+• سيتم احتساب الشحن والضرائب استنادا إلى البلد وطريقة التسليم المشار في وقت الخروج.
+</string>
+    <string name="shippingAndReturn_Delivery_details1">• خدمة الدفع النقدي عند التسليم متوفرة فقط داخل المملكة العربية السعودية.</string>
+    <string name="shippingAndReturn_Delivery_details2">• سيتم شحن جميع المشتريات وتسليمةا من خلال شركات الشحن المعروفة في غضون أيام عمل 2-8 للمملكة العربية السعودية، وربما يستغرق وقتا أطول للشحن خارج المملكة العربية السعودية والتي تختلف من بلد إلى آخر. يمكنك تتبع شحنتك عن طريق موقع شركة الشحن.</string>
+    <string name="shippingAndReturn_ReturnandExchange_title">الإسترجاع والإستبدال</string>
+    <string name="shippingAndReturn_ReturnandExchange_details">سياسة الإسترجاع الودية للعملاء تسمح بإمتياز من المنتجات المسترجعة المؤةلة في غضون 3 أيام من تاريخ التسليم طالما أن المنتج )المنتجات(،مع التعبئة والتغليف الأصلي في الحالة والشروط الأصلية عندما تم شراؤةا واستلامةا. يرجى اعلامنا من خلال واحدة من قنوات الاتصال لدينا أولا، من أجل السماح لعملية الإسترجاع أن تكون سلسة. سيتم رد المبالغ وفقا لطريقة الدفع التي حددتةا أثناء عملية الشراء.</string>
+
+    <!-- Bank Transfer -->
+    <string name="bankTransfer_Title">حوالة بنكية</string>
+    <string name="bankTransfer_intro">يمكنك عمل حوالة بنكية على بيانات الحسابات الخاصة بنا</string>
+    <string name="bankTransfer_SABB_Title">بنك ساب ( السعودي البريطاني )</string>
+    <string name="bankTransfer_SABB_client">إذا كنت أحد عملاء بنك ساب : 001292721001</string>
+    <string name="bankTransfer_SABB_not_client">إذا كنت عميلاً لأحد المصارف الآخرى استخدم رقم الآيبان : SA3245000000001292721001</string>
+    <string name="bankTransfer_Rajhi_title">مصرف الراجحي</string>
+    <string name="bankTransfer_Rajhi_client">إذا كنت أحد عملاء بنك الراجحي : 126608010073020</string>
+    <string name="bankTransfer_Rajhi_not_client">إذا كنت عميلاً لأحد المصارف الآخرى استخدم رقم الآيبان : SA2680000126608010073020</string>
+
+
+    <!-- Payment Method -->
+    <string name="paymentMethodHint">اختر كيفية الدفع</string>
+    <array name="methods">
+        <item>الدفع عند الاستلام</item>
+        <item>حوالة بنكية</item>
+        <item>بايبال</item>
+        <item>بطاقة ائتمان</item>
+
+    </array>
+    <string-array name="gate2play_methods">
+        <item>طريقة الدفع</item>
+        <item>فيزا كارد</item>
+        <item>ماستر كارد</item>
+    </string-array>
+
+    <string name="expiry_date">تاريخ انتهاء الصلاحية</string>
+    <string name="expiry_month">الشهر</string>
+    <string name="expiry_year">السنة</string>
+
+    <string name="gateError">اختر طريقة الدفع</string>
+
+
+
+    <!-- Whatsapp Message -->
+    <string name="whatsapp_enterMessage">قم بكتابة الرسالة</string>
+    <string name="whatsapp_openContacts">افتح قائمة الاسماء</string>
+    <string name="whatsapp_toast">اختر العربية للعود لأرسال الرسالة</string>
+
+    <!--order Details -->
+    <string name="orderNo">رقم الطلب  :  </string>
+    <string name="orderDate">تاريخ الطلب  : </string>
+    <string name="orderShipping">الشحن    : </string>
+    <string name="ordertotal">المجموع       : </string>
+    <string name="orderfree">مجاناً</string>
+
+    <!-- Store Locator -->
+    <string name="storeLocator_alertTitle">خدمة تحديد الموقع لا تعمل</string>
+    <string name="storeLocator_alertMessage">قم بتفعيل خدمة تحديد الموقع وخدمة الموقع من Google من الاعدادات</string>
+
+    <string name="no_products_message">للاسف بعض المنتجات غير متوفرة الآن لدى فروعنا, اعد المحاولة لاحقا</string>
+    <string name="no_products_title">المنتج غير متوفر الآن</string>
+
+    <!-- toast -->
+    <string name="itemAddedToWishList">تم الاضافة الى قائمة الامنيات</string>
+    <string name="itemaddedTocart">تم الاضافة الى السلة</string>
+    <string name="noOrderFound">لا يوجد طلبــات</string>
+    <string name="NoAddressesFound">لا يوجد عناوين مسـجلة</string>
+    <string name="NetworkError">حدث خطأ فى الاتصال,برجاء اعادة المحاولة..</string>
+    <string name="EnterSearchKey">ادخل اسم المنتج للبحث...</string>
+
+
+    <!-- Dialogs -->
+    <string name="cartDelete">مســح المنتـج؟</string>
+    <string name="DeleteTitle">تأكيـد</string>
+    <string name="loading">تحميــل...</string>
+    <string name="changeLanguageTitle">تغيير اللغة</string>
+    <string name="changeLanguageAndRestart">تغيير اللغة و اعادة تشغيل التطبيق</string>
+    <string name="changeLanguage">سيتم اعادة تشـغيل التطبيق</string>
+
+
+    <!-- Cities -->
+    <array name="cities">
+        <item>الرياض</item>
+        <item>تبوك</item>
+        <item>مكة</item>
+        <item>المدينة</item>
+        <item>جدة</item>
+        <item>الاحساء</item>
+        <item>الطائف</item>
+        <item>الدمام</item>
+        <item>خميس</item>
+        <item>خميس مشيط</item>
+        <item>بريدة</item>
+        <item>خبر</item>
+        <item>حائل</item>
+        <item>حفر الباطن</item>
+        <item>الجبيل</item>
+        <item>الخارج</item>
+        <item>قطيف</item>
+        <item>ابةا</item>
+        <item>نجران</item>
+        <item>ينبع</item>
+        <item>القريات</item>
+        <item>الرس</item>
+        <item>عنيزة</item>
+        <item>المجمعة</item>
+        <item>شرورة</item>
+        <item>جازان</item>
+        <item>صامطة</item>
+        <item>القصيم</item>
+        <item>الباحة</item>
+        <item>عرعر</item>
+        <item>القويعية</item>
+        <item>القنفدة</item>
+    </array>
+    <!--Gate2Play-->
+    <string name="error">اختر نوع الكارت</string>
+    <string name="gate2play_name">الاسم</string>
+    <string name="gate2play_ccn">رقم البطاقة</string>
+    <string name="gate2play_expirydate">تاريخ الانتهاء MM/YYYY</string>
+    <string name="gate2play_cvv">رمز التحقق (CVV)</string>
+
+    <string name="alert">محزر</string>
+    <string name="ok">حسنا</string>
+    <string name="cancel">إلغاء</string>
+
+    <string name="alert_input_email">يرجى إدخال البريد الإلكتروني</string>
+    <string name="alert_input_password">الرجاء إدخال كلمة المرور</string>
+    <string name="alert_input_first_name">الرجاء إدخال الاسم الأول</string>
+    <string name="alert_input_last_name">الرجاء إدخال الاسم الثاني</string>
+    <string name="alert_input_email_correct">يرجى إدخال البريد الإلكتروني بشكل صحيح</string>
+    <string name="alert_input_password_length">يرجى إدخال كلمة المرور 6 أحرف على الأقل</string>
+    <string name="alert_user_registered">وسجلت بالفعل المستخدم. الرجاء إدخال بريد إلكتروني آخر</string>
+    <string name="alert_register_failed">وفشل السجل. حاول مرة اخرى!</string>
+    <string name="alert_reset_password_failed">وفشل إعادة تعيين كلمة المرور. حاول مرة اخرى!</string>
+
+    <string name="alert_input_name">الرجاء إدخال اسم</string>
+    <string name="alert_input_phone">يرجى إدخال رقم الهاتف</string>
+    <string name="alert_input_subject">الرجاء إدخال موضوع</string>
+    <string name="alert_input_comment">الرجاء إدخال تعليق</string>
+
+    <string name="alert_input_street_name">الرجاء إدخال اسم الشارع</string>
+    <string name="alert_input_street_number">الرجاء إدخال رقم الشارع</string>
+    <string name="alert_input_address_extra">يرجى إدخال عنوان إضافي</string>
+    <string name="alert_input_city">الرجاء إدخال المدينة</string>
+
+    <string name="alert_network_connection_failed">وفشل الاتصال بالشبكة. يرجى التحقق من دولتكم وحاول مرة أخرى!</string>
+    <string name="press_again_exit_app">يرجى الضغط مرة واحدة للخروج من البرنامج</string>
+
+    <string name="storeLocator_country">-بلد-</string>
+    <string name="storeLocator_city">-مدينة-</string>
+    <string name="storeLocator_branch">-فرع شجرة-</string>
+
+    <string name="country_sa">المملكة العربية السعودية</string>
+    <string name="country_bh">البحرين</string>
+    <string name="country_om">سلطنة عمان</string>
+    <string name="country_qa">دولة قطر</string>
+    <string name="country_ae">الإمارات العربية المتحدة</string>
+    <string name="country_fr">فرنسا</string>
+    <string name="country_eg">مصر</string>
+    <string name="country_jo">الأردن</string>
+    <string name="country_iq">العراق</string>
+    <string name="country_my">ماليزيا</string>
+    <string name="country_gb">المملكة المتحدة</string>
+    <string name="country_kw">الكويت</string>
+    <string name="country_pl">بولندا</string>
+
+    <string name="txt_order_number">النظام لا:</string>
+    <string name="txt_order_date">تاريخ الطلب :</string>
+    <string name="txt_payment_method">طريقة الدفع او السداد :</string>
+    <string name="txt_items_ordered">المواد المطلوبة</string>
+
+    <string name="payment_cash">الدفع عند الاستلام</string>
+    <string name="payment_bank">حوالة بنكية</string>
+    <string name="payment_paypal">بايبال</string>
+    <string name="payment_card">بطاقة ائتمان</string>
+    <string name="payment_card_visa">بطاقة فيزا</string>
+    <string name="payment_card_master">بطاقة ماستر بطاقة ائتمان</string>
+
+    <string name="discount_coupon_codes">أكواد خصم</string>
+    <string name="button_apply">نفذ</string>
+    <string name="enter_coupon_code">ادخل كود كوبون الخصم</string>
+    <string name="alert_input_coupon_code">يرجى إدخال رمز القسيمة.</string>
+    <string name="alert_invalid_coupon_code">كود الكوبون غير صحيح.</string>
+    <string name="alert_success_coupon_code">تم تطبيق شفرة القسيمة.</string>
+    <string name="alert_cancel_coupon_code">تم إلغاء رمز القسيمة.</string>
+    <string name="str_discount">خصم</string>
+
+    <string name="alert_invalid_card_number">معلومات بطاقة الائتمان غير صالحة. الرجاء إدخال معلومات البطاقة مرة أخرى.</string>
+    <string name="alert_transaction_failed">فشلت العملية. حاول مرة اخرى.</string>
+
+    <string name="alert_ordering_failed">فشل الطلب. حاول مرة اخرى</string>
+
+</resources>

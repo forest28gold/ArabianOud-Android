@@ -1,0 +1,31 @@
+<resources>
+
+    <color name="colorPrimary">#451213</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="white_light">#dddddd</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#363636</color>
+    <color name="dark">#767575</color>
+    <color name="gray">#d3d2d2</color>
+    <color name="orange">#e87206</color>
+    <color name="blue">#008ace</color>
+    <color name="green">#05ff05</color>
+    <color name="red">#cb0e05</color>
+
+
+    <color name="black_overlay">#66000000</color>
+    <color name="actionbar_background1">#0c0c18</color>
+    <color name="actionbar_text">#ffffff</color>
+    <color name="actionbar_background">#451213</color>
+    <color name="region_background">#501b1c</color>
+    <color name="mainscreen_background">#d1c6c6</color>
+    <color name="mainscreen_offers_text">#866d52</color>
+    <color name="mainscreen_women_text">#da5976</color>
+    <color name="mainscreen_men_text">#a39560</color>
+    <color name="product_name_text">#000000</color>
+    <color name="main_text">#65666f</color>
+</resources>

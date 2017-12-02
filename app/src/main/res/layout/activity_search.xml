@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ecommerce.dell.mcommerce.activity.product.SearchActivity"
+    android:background="@drawable/blurredbackground">
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:editable="true"
+        android:hint="@string/SearchKey"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:background="@android:color/white"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <GridView
+            android:layout_below="@+id/search"
+            android:id="@+id/products_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="10dp"
+            android:descendantFocusability="blocksDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

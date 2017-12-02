@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ecommerce.dell.mcommerce.activity.payment.PaymentConfirmationActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_title1"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/ordernumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_title2"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_title3"
+            android:textSize="12dp"
+            android:padding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#733115"
+            android:textColor="@android:color/white"
+            android:id="@+id/orderDetails"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emptyCart_title3"
+            android:layout_marginTop="30dp"
+            android:textSize="12dp"
+            android:padding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#733115"
+            android:textColor="@android:color/white"
+            android:id="@+id/paymentHome"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

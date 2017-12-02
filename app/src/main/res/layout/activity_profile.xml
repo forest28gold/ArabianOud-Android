@@ -1,0 +1,180 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    tools:context=".activity.profile.ProfileActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:gravity="top">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/back_profile"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="80dp"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_marginStart="10dp"
+                        android:textSize="25dp"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/name"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"/>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"></LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/gender"
+                    android:text="@string/profile_address"
+                    android:maxLines="1" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/email"
+                    android:text="@string/profile_email"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/birthdate"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/profile_telephone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:orientation="horizontal"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/profile_track_order"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:id="@+id/orders"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+                    android:drawableEnd="@drawable/rightarrow"
+                    android:drawableStart="@drawable/graycart_gray"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:orientation="horizontal"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/profile_stored_address"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+                    android:drawableEnd="@drawable/rightarrow"
+                    android:drawableStart="@drawable/usergray"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/storedAddress"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:orientation="horizontal"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/profile_logout"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:id="@+id/logout"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/logoutgray"
+                    android:drawablePadding="10dp"
+                    android:drawableEnd="@drawable/rightarrow"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:orientation="horizontal"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

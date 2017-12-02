@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecommerce.dell.mcommerce">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission
+        android:name="com.ecommerce.dell.mcommerce.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <permission
+        android:name="com.ecommerce.dell.mcommerce.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.ecommerce.dell.mcommerce.ArabianOudApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme">
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.SelectRegionActivity"
+            android:label="@string/main_activity_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.MainActivity"
+            android:label="@string/main_activity_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.profile.AboutActivity"
+            android:label="@string/shippingAndReturn_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.profile.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.profile.OrdersActivity"
+            android:label="@string/title_activity_order_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.profile.ProfileShippingAdressesActivity"
+            android:label="@string/title_activity_stored_address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.profile.ContactUsActivity"
+            android:label="@string/title_activity_contactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.profile.StoreLocatorActivity"
+            android:label="@string/title_activity_store_locator"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDx2IkNMxqVKg2JOXIX893U3bxDvtL57V0" />
+
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.login.LoginActivity"
+            android:label="@string/login_signin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.login.SignupActivity"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.login.ForgotPasswordActivity"
+            android:label="@string/forgetPassword_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.product.CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.product.DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.product.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.product.CartActivity"
+            android:label="@string/title_activity_cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.product.WishListActivity"
+            android:label="@string/title_activity_wish_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.ShippingAddressActivity"
+            android:label="@string/title_activity_stored_address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.AddAddressActivity"
+            android:label="@string/stored_addresses_add_address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.PaymentConfirmationActivity"
+            android:label="@string/title_activity_payment_confirmation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.CheckoutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_checkout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.CheckoutBankTransferActivity"
+            android:label="@string/main_activity_title"
+            android:screenOrientation="portrait" />
+
+        <!--<service android:name="com.parse.PushService" />-->
+
+        <!--<receiver-->
+            <!--android:name="com.parse.ParsePushBroadcastReceiver"-->
+            <!--android:exported="false">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.parse.push.intent.RECEIVE" />-->
+                <!--<action android:name="com.parse.push.intent.DELETE" />-->
+                <!--<action android:name="com.parse.push.intent.OPEN" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+            <!--android:name="com.parse.GcmBroadcastReceiver"-->
+            <!--android:permission="com.google.android.c2dm.permission.SEND">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
+                <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION" />-->
+
+                <!--&lt;!&ndash; IMPORTANT: Change "com.parse.starter" to match your app's package name. &ndash;&gt;-->
+                <!--<category android:name="com.ecommerce.dell.ecommerce" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<meta-data-->
+            <!--android:name="com.parse.push.notification_icon"-->
+            <!--android:resource="@drawable/logo" />-->
+
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.CheckoutPaypalActivity"
+            android:label="@string/main_activity_title"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.CheckoutCreditCardActivity"
+            android:label="@string/main_activity_title"
+            android:screenOrientation="portrait" />
+        <service
+            android:name="com.oppwa.mobile.connect.service.ConnectService"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.ecommerce.dell.mcommerce.activity.payment.OrderDetailsActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
